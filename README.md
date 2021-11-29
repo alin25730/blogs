@@ -50,6 +50,14 @@
 >目录 blogNide
 >moment 时间处理
 ```
+> api http://localhost:5000/
+```
+app.use("/api/user", user);
+app.use("/api/remark", remark);
+app.use("/api/friend", friend);
+app.use("/api/Mkdown", Mkdown);
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
