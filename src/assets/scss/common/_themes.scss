@@ -1,0 +1,16 @@
+$themes: (
+  light: (
+    background_color: #F06292,//背景色
+    text-color: rgba(0, 0, 0, 0.65), // 主文本色
+    page_bg: url("../assets/image/pink.jpg")no-repeat center center,
+  ),
+  dark: (
+    background_color: #29A176,//背景
+    text-color: rgba(255, 255, 255, 0.65), // 主文本色
+    page_bg: url("../assets/image/green.png"),
+  ),
+  blueness :(
+    background_color:#0B8DE5,
+    page_bg: url("../assets/image/blue.png")no-repeat center center,
+  ) ,
+);

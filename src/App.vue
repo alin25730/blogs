@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+import jwt_decode from 'jwt-decode';
+      export default {
+          name: 'app',
+          created() {
+            const token = localStorage.getItem('blogToken');
+           if(token){
+             const decode = jwt_decode(token);
+             this.$store.dispatch('audpdateInfo',decode);
+           }else{
+             return;
+           }
+           
+          },
+      };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" scoped>
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  #app {
+    height: 937px;
+
+    /* @media screen and (max-width: 375px) {
+      height: 17.783333rem;
+
+    } */
+  }
+
 </style>
