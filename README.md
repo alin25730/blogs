@@ -1,4 +1,11 @@
 # blog
+![image](https://user-images.githubusercontent.com/42339998/146632026-fd2595db-6cde-44fa-929a-4a22d507d207.png)
+![image](https://user-images.githubusercontent.com/42339998/146632036-48ba3f5b-ee6a-43c7-9fac-a10b36816293.png)
+![image](https://user-images.githubusercontent.com/42339998/146632041-4f494e7c-7232-415d-a2b9-d4b7dc40516f.png)
+![image](https://user-images.githubusercontent.com/42339998/146632050-1df6ad7d-84a3-4acf-8c97-88c4cc6f786d.png)
+![image](https://user-images.githubusercontent.com/42339998/146632055-b6ed7d80-0a11-44e1-8929-2a2f51ea2f49.png)
+![image](https://user-images.githubusercontent.com/42339998/146632064-1c5300e9-549c-4ec2-a9ee-325d50f0e072.png)
+![image](https://user-images.githubusercontent.com/42339998/146632074-3d0d0613-095e-4db4-a6e7-60c3c3b7eef3.png)
 
 ## Bibooo的博客
 > 以前做过博客系统 http://8.129.228.103/#/Home 不好看,功能也少,现在重新做
